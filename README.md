@@ -70,23 +70,23 @@ An aggregated **overall automatic score** is reported as a weighted combination 
 
 ## Repository Structure
 
-├── README.md.   
-├── report/   
-├── data/   
-│ ├── raw/      
+├── README.md.          
+├── report/         
+├── data/          
+│ ├── raw/        # gitignored           
 │ ├── processed/      
 | ├── predictions/      
-| ├── .cache_llm/      
-│ └── samples/        
-├── notebooks/        
-├── src/
+| ├── .cache_llm/ # gitignored      
+│ └── samples/         
+├── notebooks/         
+├── src/         
 │ ├── eval/          
 │ ├── llm/                      
-│ └── utils/
-├── .gitignore
-├── LICENSE
-├── requirements.txt
-└── .env.example
+│ └── utils/           
+├── .gitignore             
+├── LICENSE            
+├── requirements.txt          
+└── .env.example        
 
 ## Running the Project
 
